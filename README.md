@@ -14,5 +14,4 @@ Watch the demo [here](https://codepen.io/justFae00/full/bGQQXjw).
 -------------------------------------------------------------------------------------
 App environment:
 
-![image](https://github.com/justFae00/WeatherApp/assets/94365737/db94163d-f36e-415d-a12f-e4d56f7e57cd)
-![image](https://github.com/justFae00/WeatherApp/assets/94365737/a106128d-f9e1-4a62-9e8e-4bffe86e788e)
+ <img src="https://github.com/justFae00/WeatherApp/assets/94365737/a106128d-f9e1-4a62-9e8e-4bffe86e788e" alt="alt text" width="250" height="460"> <img src="https://github.com/justFae00/WeatherApp/assets/94365737/db94163d-f36e-415d-a12f-e4d56f7e57cd" alt="alt text" width="250" height="460">
