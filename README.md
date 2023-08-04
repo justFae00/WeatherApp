@@ -1,4 +1,4 @@
-# Weather App
+# Weather App using API
 Weather App practice with html, css and javascript. 
 
 API from [OpenWeather](https://openweathermap.org/).
