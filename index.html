@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"
+    />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/21e49bdcfc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="opening"></div>
+    <div class="container">
+      <div class="language-box">
+        <p id="language-selector" onclick="changeLanguage()">EN</p>
+      </div>
+      <input type="text" placeholder="enter city" id="search-box" />
+      <div class="start-container">
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+        <p id="search-text">
+          write the name of the city in English or Persian. Then press enter.
+        </p>
+      </div>
+      <div class="main-data-container hidden">
+        <p id="city-name"></p>
+        <p id="description"></p>
+        <p id="degree"></p>
+        <div class="min-and-max">
+          <div class="max-degree-box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 15 13"
+              fill="none"
+            >
+              <path d="M7.875 0.875L14.8032 12.875H0.946797L7.875 0.875Z" />
+            </svg>
+            <p id="max-degree"></p>
+          </div>
+          <div class="min-degree-box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 15 13"
+              fill="none"
+            >
+              <path d="M7.875 12.375L0.946796 0.375H14.8032L7.875 12.375Z" />
+            </svg>
+            <p id="min-degree"></p>
+          </div>
+        </div>
+      </div>
+      <div class="weather-icon hidden">
+        <img id="weather-image" />
+      </div>
+      <div class="description-container hidden">
+        <div class="icons">
+          <p><i class="fa-solid fa-temperature-quarter"></i></p>
+          <p><i class="fa-solid fa-droplet"></i></p>
+          <p><i class="fa-solid fa-bars-staggered"></i></p>
+          <p><i class="fa-solid fa-wind"></i></p>
+        </div>
+        <div class="variables">
+          <p id="feels-like-text">feels like</p>
+          <p id="humidity-text">humidity</p>
+          <p id="pressure-text">pressure</p>
+          <p id="wind-speed-text">wind speed</p>
+        </div>
+        <div class="values">
+          <p id="feels-like"></p>
+          <p id="humidity"></p>
+          <p id="pressure"></p>
+          <p id="wind-speed"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
