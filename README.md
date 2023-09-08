@@ -9,7 +9,7 @@ Abilities:
 3. Errors are handled.
 4. The weather icon is set with the weather description and based on the weather ID from API.
 
-Watch the demo [here](https://codepen.io/justFae00/full/bGQQXjw).
+Watch the demo [here](https://justfae00.github.io/WeatherApp/).
 
 -------------------------------------------------------------------------------------
 App environment:
